@@ -42,7 +42,8 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>IT'S A GOOD  DAY TO HAVE A GOOD DAY 😊 </h1>
+      <h2> Be You, Do You, For You!</h2>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
