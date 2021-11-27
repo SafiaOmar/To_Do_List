@@ -6,7 +6,7 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
 
   const addTodo = todo => {
-    if (!todo.text || /^\s*$/.test(todo.text)) {
+    if (!todo.text || /^\s*$/.test(todo.text)) { //this line of code  makes sure that unless  someone  types a letter they cant submit a blank to do. also closes gap between long spaces//
       return;
     }
 
